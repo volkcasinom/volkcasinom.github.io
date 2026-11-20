@@ -1,0 +1,16 @@
+User-agent: *
+Allow: /
+
+# Закрываем служебные и технические разделы
+Disallow: /app/private/
+Disallow: /*?utm_
+Disallow: /*?ref=
+Disallow: /search*
+Disallow: /admin/
+
+# Главное зеркало и канонический адрес
+Host: https://volkcasinom.github.io/
+Sitemap: https://volkcasinom.github.io/sitemap.xml
+
+# Время опроса роботами
+Crawl-delay: 1
